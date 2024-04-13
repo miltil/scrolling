@@ -1,0 +1,24 @@
+.hidden {
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.5s ease-in-out, visibility 0s linear 0.5s;
+}
+
+.sky {
+    background-color: black;
+    border-radius: 200px;
+    position: relative;
+    height: 500px;
+    overflow: hidden;
+}
+
+.stars {
+    width: 500px;
+    position: relative;
+}
+
+.moon {
+    width: 150px;
+    position: absolute;
+    z-index: 1;
+}

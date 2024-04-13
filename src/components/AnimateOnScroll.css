@@ -1,0 +1,12 @@
+.space-container {
+    display: flex;
+    justify-content: center;
+}
+
+.astronaut {
+    width: 200px;
+}
+
+.spaceship {
+    width: 200px;
+}

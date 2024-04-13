@@ -1,19 +1,17 @@
 import 'animate.css';
 import './App.css';
-import Introduction from './components/Introduction';
-import Testimonials from './components/Testimonials';
-import Models from './components/Models';
-import SpecialDeal from './components/SpecialDeal';
-import SignUp from './components/SignUp';
+import Hero from './components/Hero';
+import Tracking from './components/Tracking';
+import AnimateOnScroll from './components/AnimateOnScroll';
+import ScrollRotateGears from './components/ScrollRotateGears';
 
 function App() {
   return (
     <div>
-      <Introduction />
-      <Testimonials />
-      <Models />
-      <SpecialDeal />
-      <SignUp />
+      <Hero />
+      <Tracking />
+      <AnimateOnScroll />
+      <ScrollRotateGears />
     </div>
   );
 }
