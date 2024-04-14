@@ -12,6 +12,7 @@ const Hero = () => {
         <p>
           Scroll animation demos using different React libraries
         </p>
+        <p><a className='link' href="https://github.com/miltil/scrolling">See this page on GitHub</a></p>
       </div>
     </section>
   );
